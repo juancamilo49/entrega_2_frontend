@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { FaBeer, FaAmazon } from 'react-icons/fa';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,8 @@ function App() {
   return (
     <>
       <div>
+        <h1><FaBeer /> Lets go for a beer? </h1>
+        <h1><FaAmazon /> Lets go for a shopping? </h1>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
